@@ -18,7 +18,7 @@ mysql = MySQL(app)
 
 #Articles = Articles()
 
-# Index
+# Index , first run succed !!
 @app.route('/')
 def index():
     return render_template('home.html')
